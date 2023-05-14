@@ -1,0 +1,74 @@
+body {
+    background: #324148;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+    margin: 0px 10px 0px 10px;
+    width: 144px;
+    height: 144px;
+    background: #72909D;
+    mix-blend-mode: normal;
+    opacity: 0.09;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.btn.active {
+    opacity: 1;
+    box-shadow: 0px 12px 23px 10px rgba(47, 62, 75, 0.102553);
+}
+
+.btn > .female {
+    position: absolute;
+    left: 34.03%;
+    right: 34.03%;
+    top: 26.39%;
+    bottom: 42.36%;
+}
+
+.btn > .male {
+    position: absolute;
+    left: 36.81%;
+    right: 36.81%;
+    top: 27.78%;
+    bottom: 46.53%;
+}
+
+#panel {
+    position: absolute;
+    width: 350px;
+    height: 512px;
+    left: 32px;
+    top: 136px;
+
+    /*border: 1px solid rgba(255,255,255, .1);*/
+    border-radius: 10px;
+}
+
+#male {
+    position: absolute;
+
+    width: 144px;
+    height: 144px;
+    left: 0px;
+    top: 0px;
+    background: #72909D;
+    mix-blend-mode: normal;
+    opacity: 0.09;
+    border-radius: 10px;
+}
+
+#female {
+    /* female */
+    position: absolute;
+    left: 182px;
+    top: 0px;
+    width: 144px;
+    height: 144px;
+
+    background: #72909D;
+    box-shadow: 0px 12px 23px 10px rgba(47, 62, 75, 0.102553);
+    border-radius: 10px;
+}
